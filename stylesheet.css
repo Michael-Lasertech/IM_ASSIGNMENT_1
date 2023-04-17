@@ -139,7 +139,29 @@ footer{
 }
 
 
+img{
+  width: 50vw;
+
+  height:automatic;
   
+}
+
+figure{ 
+    padding-top: 30px;
+    padding-left: 20vw;
+
+}
+
+figcaption{
+    padding-top:10px ;
+    padding-bottom: 40px ;
+    margin-right:10px;
+    border-bottom: 3px solid black;
+    border-right: 3px solid black;
+    text-align: center;
+    width:50vw
+   
+}
 /*
  rgb(246, 243, 243)
 */
