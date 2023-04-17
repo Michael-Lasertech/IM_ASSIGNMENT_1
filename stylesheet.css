@@ -93,11 +93,27 @@ section {
 }
 
 #homepage{
-    padding: 100px 100px;
+    
+    margin-top: 20px;
+    padding-top: 10px;
+    height:50vh;
+    font-size: 2em;
+    text-align: center;
+
 }
 
+#homepage p {
+
+  padding: 30px 30px;
+  
+}
+
+
 #about{
+    height:60vh ;
+    padding-top: 10px;
     background-color: crimson;
+    color: white;
 }
 
 #essay{
