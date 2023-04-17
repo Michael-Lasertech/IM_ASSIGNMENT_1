@@ -175,8 +175,9 @@ figcaption{
     padding-top:10px ;
     padding-bottom: 40px ;
     margin-right:10px;
-    border-bottom: 3px solid black;
-    border-right: 3px solid black;
+    margin-top: 5px;
+    border-top: 3px solid crimson;
+    
     text-align: center;
     width:50vw
    
@@ -683,13 +684,13 @@ figure{
 
 figcaption{
     padding-top:10px ;
-    padding-bottom: 40px ;
+    padding-bottom: 10px ;
     margin-right:10px;
-    border-bottom: 3px solid black;
-    border-right: 3px solid black;
+    margin-top: 5px;
+    border-top: 3px solid crimson;
+    
     text-align: center;
     width:50vw
-   
 }
 /*
  rgb(246, 243, 243)
@@ -883,13 +884,14 @@ figcaption{
    }
    
    figcaption{
-       padding-top:10px ;
-       padding-bottom: 40px ;
-       margin-right:10px;
-       border-bottom: 3px solid black;
-       border-right: 3px solid black;
-       text-align: center;
-       width:50vw
+    padding-top:10px ;
+    padding-bottom: 10px ;
+    margin-right:10px;
+    margin-top: 5px;
+    border-top: 3px solid crimson;
+    
+    text-align: center;
+    width:50vw
       
    }
    /*
