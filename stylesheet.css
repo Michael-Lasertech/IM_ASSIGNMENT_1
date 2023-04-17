@@ -514,3 +514,410 @@ figcaption{
   [hidden] {
     display: none;
   }
+
+  @media(max-width:1105px) {
+    
+ html {
+    line-height: 1.15; /* 1 */
+    -webkit-text-size-adjust: 100%; /* 2 */
+  }
+  
+  /* Sections
+     ========================================================================== */
+  
+  /**
+   * Remove the margin in all browsers.
+   */
+  
+  body {
+    margin : 0;
+    margin-top: 80px;
+    background-color: rgba(246, 243, 243, 0.459);
+   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
+   text-justify: newspaper;
+    height: 100vh;
+    color: black;
+    font-size: 13px;
+    
+  }
+
+  h1, h2, h3, h4{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    
+  }
+
+  nav { 
+
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: rgb(246, 243, 243);
+    
+    height: 60px;
+    position:fixed;
+    top: 0;
+    width: 100%;
+    
+  }
+
+#logo{
+    color: crimson;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-style: italic;     
+    float: left;
+    padding: 25px 0 0 20px;
+      
+}
+
+ nav ul {
+    float: right;
+    margin-right: 10px;
+ }
+
+  nav ul li {
+    margin-top: 10px;
+     display: inline-block;
+  }
+
+nav ul li a { 
+
+   font-size: 13px;
+   text-decoration: none;
+   color: black;
+   margin: 20px 20px 20px 20px;
+ }
+
+ a:hover{
+ 
+    color: crimson;
+    text-decoration:underline;    
+ }
+
+ /* Homepage style */
+
+section {
+    
+   padding-left: 20px;
+   
+}
+
+#homepage{
+    
+    margin-top: 20px;
+    padding-top: 10px;
+    height:50vh;
+    font-size: 2em;
+    text-align: center;
+
+}
+
+#homepage p {
+
+  padding: 30px 30px;
+  
+}
+
+
+#about{
+    height:60vh ;
+    padding-top: 10px;
+    background-color: crimson;
+    color: white;
+}
+
+#essay{
+    height:100vh;
+    padding-top: 20px;
+    background-color: crimson;
+    color: white;
+}
+
+article {
+     
+     text-align: justify;
+     border-top: 3px solid black;
+     border-right-style:inset;
+     margin:0 auto; 
+     padding-right: 10px;
+     width: 95%;
+}
+
+footer{
+    background-color: black;
+    /* background-color: black; */
+    padding: 70px 70px;
+}
+
+.BackUP{
+    margin-left: 45vw;
+    border: none;
+    background-color: black;
+}
+
+.BackUP a{
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+}
+
+.BackUP a:hover{
+    color: crimson;
+    text-decoration:underline;
+}
+
+
+img{
+  width: 50vw;
+
+  height:automatic;
+  
+}
+
+figure{ 
+    padding-top: 30px;
+    padding-left: 20vw;
+
+}
+
+figcaption{
+    padding-top:10px ;
+    padding-bottom: 40px ;
+    margin-right:10px;
+    border-bottom: 3px solid black;
+    border-right: 3px solid black;
+    text-align: center;
+    width:50vw
+   
+}
+/*
+ rgb(246, 243, 243)
+*/
+
+
+
+
+  
+
+
+  /**
+   * Render the `main` element consistently in IE.
+   */
+  
+  main {
+    display: block;
+  }
+  
+  /**
+   * Correct the font size and margin on `h1` elements within `section` and
+   * `article` contexts in Chrome, Firefox, and Safari.
+   */
+  
+  h1 {
+    font-size: 1em;
+    margin: 0.67em 0;
+  }
+
+  } 
+
+  @media(max-width:630px) {
+    
+    html {
+       line-height: 1.15; /* 1 */
+       -webkit-text-size-adjust: 100%; /* 2 */
+     }
+     
+     /* Sections
+        ========================================================================== */
+     
+     /**
+      * Remove the margin in all browsers.
+      */
+     
+     body {
+       margin : 0;
+       margin-top: 80px;
+       background-color: rgba(246, 243, 243, 0.459);
+      font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
+      text-justify: newspaper;
+       height: 100vh;
+       color: black;
+       font-size: 10px;
+       
+     }
+   
+     h1, h2, h3, h4{
+       font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+       font-style: italic;
+       font-weight: bold;
+       
+     }
+   
+     nav { 
+   
+       font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+       background-color: rgb(246, 243, 243);
+       
+       height: 60px;
+       position:fixed;
+       top: 0;
+       width: 100%;
+       
+     }
+   
+   #logo{
+       display: none;
+         
+   }
+   
+    nav ul {
+       float: left;
+       margin-right: 10px;
+    }
+   
+     nav ul li {
+       margin-top: 10px;
+        display: inline-block;
+     }
+   
+   nav ul li a { 
+   
+      font-size: 13px;
+      text-decoration: none;
+      color: black;
+      margin: 10px 10px 10px 10px;
+    }
+   
+    a:hover{
+    
+       color: crimson;
+       text-decoration:underline;    
+    }
+   
+    /* Homepage style */
+   
+   section {
+       
+      padding-left: 20px;
+      
+   }
+   
+   #homepage{
+       
+       margin-top: 20px;
+       padding-top: 10px;
+       height:50vh;
+       font-size: 2em;
+       text-align: center;
+   
+   }
+   
+   #homepage p {
+   
+     padding: 30px 30px;
+     
+   }
+   
+   
+   #about{
+       height:60vh ;
+       padding-top: 10px;
+       background-color: crimson;
+       color: white;
+   }
+   
+   #essay{
+       height:100vh;
+       padding-top: 20px;
+       background-color: crimson;
+       color: white;
+   }
+   
+   article {
+        
+        text-align: justify;
+        border-top: 3px solid black;
+        border-right-style:inset;
+        margin:0 auto; 
+        padding-right: 10px;
+        width: 95%;
+   }
+   
+   footer{
+       background-color: black;
+       /* background-color: black; */
+       padding: 70px 70px;
+   }
+   
+   .BackUP{
+       margin-left: 45vw;
+       border: none;
+       background-color: black;
+   }
+   
+   .BackUP a{
+       text-transform: uppercase;
+       text-decoration: none;
+       font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+       color: white;
+   }
+   
+   .BackUP a:hover{
+       color: crimson;
+       text-decoration:underline;
+   }
+   
+   
+   img{
+     width: 50vw;
+   
+     height:automatic;
+     
+   }
+   
+   figure{ 
+       padding-top: 30px;
+       padding-left: 20vw;
+   
+   }
+   
+   figcaption{
+       padding-top:10px ;
+       padding-bottom: 40px ;
+       margin-right:10px;
+       border-bottom: 3px solid black;
+       border-right: 3px solid black;
+       text-align: center;
+       width:50vw
+      
+   }
+   /*
+    rgb(246, 243, 243)
+   */
+   
+   
+   
+   
+     
+   
+   
+     /**
+      * Render the `main` element consistently in IE.
+      */
+     
+     main {
+       display: block;
+     }
+     
+     /**
+      * Correct the font size and margin on `h1` elements within `section` and
+      * `article` contexts in Chrome, Firefox, and Safari.
+      */
+     
+     h1 {
+       font-size: 1em;
+       margin: 0.67em 0;
+     }
+   
+     } 
