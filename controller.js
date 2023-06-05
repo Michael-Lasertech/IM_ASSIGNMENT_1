@@ -126,7 +126,7 @@ const devEntries = [
     ];
 
     //Create the buttons for the weekly dev blogs
-const wk1Button = document.getElementById("wk1");
+const wk3Button = document.getElementById("wk3");
 /*
     function populateSelection (week){
 
@@ -146,7 +146,7 @@ const wk1Button = document.getElementById("wk1");
 
     //Event Listeners for clicks
     //wk1Button.addEventListener("click",populateSelection(1));
-     wk1Button.addEventListener("click",alertNoise);
+     wk3Button.addEventListener("click",alertNoise,true);
     //document.onmousedown = alertNoise;
 
    
