@@ -125,6 +125,23 @@ const devEntries = [
 
     ];
 
-    
+    //Create the buttons for the weekly dev blogs
+    const wk1Button = document.getElementById("wk1");
+
+    function populateSelection (week){
+
+        populateArticle(week);
+    }
+
+    //function for populating the article
+    function populateArticle(week){
+        let article = document.getElementById("devblog");
+        article.innerHTML = devEntries[week - 1].text;
+        alert("You clicked " + week);
+    }
+
+    //Event Listeners for clicks
+    wk1Button.addEventListener("click",populateSelection(1));
+
 
  
