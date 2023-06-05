@@ -7,13 +7,16 @@ const devEntries = [
 
     " <p> Speaking of the internet and it being a place where \"all questions seemingly have a solution\", I think of Vannevar Bush's reading which was the one I chose to go through. \"What are the scientists to do next?\" was the question that stuck out to me the most. With peace approaching again, it made it sound like what we know as the internet today was the next step in our advancement. That next step was being able to share information, discoveries and knowledge in an effective and easy manner by virtue of us being connected by a network. Through that connection, the work of the scientists from around the world would enable them to achieve their best again on different terms. Fast forward to the present day and I believe it is fair to say that the internet has become quite an integral part of the day to day lives of not just the scientists but of us all as it exists as this massive repository of information. </p>" +
     
-   " <p> My goals for this course are to acquire and polish the necessary skills for web development. I'm not completely new to HTML, CSS and JavaScript but I have forgotten most of what I learnt which is why I do look forward to the prospect of being able to be good at using them and retain that knowledge for the future. I'm also hopeful that I'll be able to gain the sense of good and bad UI/UX design and just use that to hopefully see what kind of creative things can be done with the functionality these languages provide. </p> " ,},
+   " <p> My goals for this course are to acquire and polish the necessary skills for web development. I'm not completely new to HTML, CSS and JavaScript but I have forgotten most of what I learnt which is why I do look forward to the prospect of being able to be good at using them and retain that knowledge for the future. I'm also hopeful that I'll be able to gain the sense of good and bad UI/UX design and just use that to hopefully see what kind of creative things can be done with the functionality these languages provide. </p> " 
+   
+   
+   ,},
     
       {id: 2,
       week: "Week 2", 
       text: " <p> Starting with HTML was particularly interesting. It is rather simple and feels like the first step to organizing what your web page will look like. I enjoy how it is effectively the skeleton of everything on your web page, dictating where and how things should be. As I mentioned, its simple enough as it helps you achieve the goal of organizing your web page through HTML tags and elements. So all you need to do really is be aware of the tags at your disposal, and then also be aware of the information you have for your website as well as the concept for your website. The concept is the most important part as that is effectively the guiding light for how you structure the information, and it will eventually play into the way you style your web page. </p> " + 
 
-      "<p> The readings were particularly interesting for me since they tackled a concept I honestly had not thought of very much when it comes to web development and that is accessibility. Accessibility is a very important thing because we as developers are in a sense abiding to a design principle in which we make it possible for all people to be capable of engaging, interacting and well, accessing the information we provide. It really is eye-opening to all the possible ways that semantic markup can help make our web pages even more usable. The importance of semantic markup was also something I did not initially think had as much significance but as it would turn out, it is incredibly useful for search engine optimization. We find the reason why when we look at why we even set up our websites in the first place. So why do we create web pages? There is a multitude of reasons, but they all draw back to us wanting people to use the data we put up, and working with the web crawler can help ensure that there is a decent number of people reading the information we set up.</p> ",},
+      "<p> The readings were particularly interesting for me since they tackled a concept I honestly had not thought of very much when it comes to web development and that is accessibility. Accessibility is a very important thing because we as developers are in a sense abiding to a design principle in which we make it possible for all people to be capable of engaging, interacting and well, accessing the information we provide. It really is eye-opening to all the possible ways that semantic markup can help make our web pages even more usable. The importance of semantic markup was also something I did not initially think had as much significance but as it would turn out, it is incredibly useful for search engine optimization. We find the reason why when we look at why we even set up our websites in the first place. So why do we create web pages? There is a multitude of reasons, but they all draw back to us wanting people to use the data we put up, and working with the web crawler can help ensure that there is a decent number of people reading the information we set up.</p> " ,},
 
 
     {id: 3,
@@ -61,7 +64,11 @@ const devEntries = [
 
     " <p>My thinking of web development as an individual related to my geographical area that exists in the global south is now mainly around the fact that consistent work and effort needs to be made to counter the status quo. The situation is not truly alleviating in the less developed countries, so the hope that entering the new “Information Era” would lead to a world in which digital information is more democratized is but a falsehood.   </p> " +
 
-    " <p> The most concerning part of this deals with how places that are invisible in their representation become equally invisible in practice to many people. That is a devastating predicament in which a group of people feels unheard, unseen, and unnoticed by the world. Their narratives and stories remain invisible because of their lack of the power that exists in information. </p> " 
+    " <p> The most concerning part of this deals with how places that are invisible in their representation become equally invisible in practice to many people. That is a devastating predicament in which a group of people feels unheard, unseen, and unnoticed by the world. Their narratives and stories remain invisible because of their lack of the power that exists in information. </p> " +
+
+    "<p></p> "+
+ 
+    "<p></p> " 
     
     },
 
@@ -77,7 +84,12 @@ const devEntries = [
     " <p>Magenta makes an important point about how the internet has currently morphed into something that “feels like a brave new world in danger of mirroring oppressive norms and ideas that have existed in the unequal world we have lived in”. There are a lot of bigoted actors that exist on the internet that attack women and LGBTQIA people and get away with it. The hate towards people that do not conform has been somewhat normalized, but Magenya suggests that in diverse groups standing up to this, change can be made. The change that can be made by making the internet more feminist exists in that we get to regain control of the narratives related to us and we also try to make the internet a much kinder place.  </p> " +
 
     " <p> The reason so much bigotry, racism, and homophobia almost seems protected and normalized on the internet is the very disconnect it has with the majority of its users not acting as they would in the world. There is not enough effort to try to understand the various problems of people from different groups, and as such despite the internet being an unequal space, kindness and care are needed to try to treat this. Magenya points out that for this to happen, more African feminists need to “take up space on the internet to tell more stories and provide alternative views” to ultimately let the heteronormative status quo know that these people will not disappear, and neither will their voices.</p> " 
+    +
 
+    "<p></p> "+
+ 
+    "<p></p> " 
+    
 
 },
 
@@ -89,13 +101,23 @@ const devEntries = [
     " <p> The reading for the week was The Road to Techno-colonialism by Verdi. One of the major geopolitical implications of AI is that due to the existing duopoly of the technology, AI can be used to further extend the influence and power of Sino-America. AI can provide more power to international states making use of it since it has major economic benefits and is currently transforming military operations. These two factors are very important in that they can be equated to the power a state holds. The problem with this however is that very few states have developed National strategies on AI.</p> " +
 
 
-    " <p> The danger of this thus lies in the power imbalance that exists as most countries simply do not have the proper infrastructure to develop their own AI systems and will have to turn to China or America. The techno-colonial relationship presents itself through this dilemma as the AI Superpowers are in full control of the terms that they exercise, with clients needing to abide by the will of the superpowers otherwise they could face limitations. This leads to a society in which big corporations make use of their competitive control to exercise control to gain control over dependent states. Very Cyberpunk. </p> "},
+    " <p> The danger of this thus lies in the power imbalance that exists as most countries simply do not have the proper infrastructure to develop their own AI systems and will have to turn to China or America. The techno-colonial relationship presents itself through this dilemma as the AI Superpowers are in full control of the terms that they exercise, with clients needing to abide by the will of the superpowers otherwise they could face limitations. This leads to a society in which big corporations make use of their competitive control to exercise control to gain control over dependent states. Very Cyberpunk. </p> " +
+
+    "<p></p> "+
+ 
+    "<p></p> " 
+    },
 
      {id: 11,
     week: "Week 11", 
     text:" <p> The lecture on “Why and how our code matters” introduced the idea of Critical code literacies and how we can avoid adding to the techno-colonialist culture that exists. The reason it exists and has been fostered in the first place is that code is not truly as neutral as we are led to believe. The choices of the literacy or code signs used within programming are driven by the requirements of the project and the purpose of the program, but also by the social understanding of the programmers behind it. </p> " +
 
-    " <p> With that in mind, by being critical when it comes to our code and aware of the possible implications within our code, we can begin the journey to effect lasting change in our sector. So, to look at my code as an example and to try to identify anything to be aware of, I just mainly need to be thinking about why I make the decisions I do and if they might have any possible effects that play into larger systems. Since it is a very new concept to me, it is a bit difficult to think of proper examples from the very small applications that my code is being used for but using lessons learned so far from within the course, I can start my thinking at accessibility. How accessible is the code I am writing? Within a South African context where most of the populous accesses the internet from mobile devices, I can ask myself if I am barring the information I make on my current or future websites/projects from an entire group of people. That is an important question to think of, consider and enact within my code. </p> " },
+    " <p> With that in mind, by being critical when it comes to our code and aware of the possible implications within our code, we can begin the journey to effect lasting change in our sector. So, to look at my code as an example and to try to identify anything to be aware of, I just mainly need to be thinking about why I make the decisions I do and if they might have any possible effects that play into larger systems. Since it is a very new concept to me, it is a bit difficult to think of proper examples from the very small applications that my code is being used for but using lessons learned so far from within the course, I can start my thinking at accessibility. How accessible is the code I am writing? Within a South African context where most of the populous accesses the internet from mobile devices, I can ask myself if I am barring the information I make on my current or future websites/projects from an entire group of people. That is an important question to think of, consider and enact within my code. </p> "  +
+
+    "<p></p> "+
+ 
+    "<p></p> " 
+    },
 
      {id: 12,
     week: "Week 12", 
@@ -106,14 +128,24 @@ const devEntries = [
     
     " <p> The reading from Costanza-Chock “Travelling While Trans”, really highlighted how a lot of the digital technologies that currently exist within our world have politics of their own. They can thus exacerbate the marginalization of groups of people that are minorities within society. These societal elements that exist within technologies are a part of a systemic problem and we need to challenge the current design principles in place to try to deal with this issue.</p> " +
 
-    " <p>The design justice network outlines some principles that exist as a starting point for designers to try counter this and allow for our design to empower the many communities around us. Its biggest aims are based on challenging the norms by making design a collaborative experience because every human being is an expert on their own lived experience. Therefore, by including them greatly in the design process, it then becomes possible to build upon what already works, and further uplift their communities with our design solutions. </p> "},
+    " <p>The design justice network outlines some principles that exist as a starting point for designers to try counter this and allow for our design to empower the many communities around us. Its biggest aims are based on challenging the norms by making design a collaborative experience because every human being is an expert on their own lived experience. Therefore, by including them greatly in the design process, it then becomes possible to build upon what already works, and further uplift their communities with our design solutions. </p> " +
+
+    "<p></p> "+
+ 
+    "<p></p> " 
+    },
 
 
      {id: 13,
     week: "Week 13", 
     text:" <p>The first reading I went through was by Tataki and Glynos “Digital Divide Widens”. It’s a text written during the Covid-19 pandemic and confronts the reality that it is only a privileged few have access to e-learning and teleworking. It highlights the importance of considering the situation we exist in and ensuring that we do not continue to leave others behind. The lack of affordable and high-quality internet access to the disadvantaged means that they cannot access those services and are essentially barred from entry.  </p> " +
 
-    " <p>The second reading I went through was by Williams and focused on the historical and sociotechnical elements of facial recognition and anti-black surveillance. The reading tackles the idea of whether some sociotechnical systems should be developed in the first place. The reading makes the argument that a lot of the systems such as facial recognition and predictive policing for example are inherently designed “on myriad a of human prejudicial biases and assumptions”. The reading brings up the example of facial recognition surveillance technologies being used within the United States policing system. A system that has a history of anti-black oppression and racism. A technology created within the confines of an unjust system is bound to be assigned and further exacerbate those unjust attitudes. The reading delves into the “history of measuring bodies of black bodies, turning those measurements into data and then building systems of values, beliefs, and predictions off of that data.” Those beliefs and predictions are harmful stereotypes that were being perpetuated within the media of the time. Those beliefs, coupled with outcomes of experiments and measurements became the base of algorithmic data and equations used to train many systems in place. Thus why the argument is made for whether or not such technologies can even be developed and explored in the first place before the current unjust societal norms are critiqued, analyzed, and challenged. "},
+    " <p>The second reading I went through was by Williams and focused on the historical and sociotechnical elements of facial recognition and anti-black surveillance. The reading tackles the idea of whether some sociotechnical systems should be developed in the first place. The reading makes the argument that a lot of the systems such as facial recognition and predictive policing for example are inherently designed “on myriad a of human prejudicial biases and assumptions”. The reading brings up the example of facial recognition surveillance technologies being used within the United States policing system. A system that has a history of anti-black oppression and racism. A technology created within the confines of an unjust system is bound to be assigned and further exacerbate those unjust attitudes. The reading delves into the “history of measuring bodies of black bodies, turning those measurements into data and then building systems of values, beliefs, and predictions off of that data.” Those beliefs and predictions are harmful stereotypes that were being perpetuated within the media of the time. Those beliefs, coupled with outcomes of experiments and measurements became the base of algorithmic data and equations used to train many systems in place. Thus why the argument is made for whether or not such technologies can even be developed and explored in the first place before the current unjust societal norms are critiqued, analyzed, and challenged. " +
+
+    "<p></p> "+
+ 
+    "<p></p> " 
+    },
 
      {id: 14,
     week: "Week 14", 
@@ -121,7 +153,12 @@ const devEntries = [
 
     " <p>The implications of the reading suggest that we need to find a means to develop “ethical frameworks and guidelines” for online behaviour. We must be mindful of how we interact with others over the internet and any possible effects our actions might cause. </p> " +
 
-    " <p> To go off on a slight tangent, I liked how the video game Death Stranding (directed and written by Hideo Kojima from Kojima Productions) tackled interaction between players. The game is set in a post-apocalyptic world that mirrors what the Covid pandemic looked like because people are forced into having to exist in isolation from each other. The game is all about reconnecting the United Cities of America by building structures and one big network. Now the way it plays into the interaction between users: structures built within the game can be used by other players, so when you create a bridge, you not only get to create it for yourself but for any future players that travel the same route that you have. Players can then only interact positively with the structure that has been built by giving it a thumbs up. There are no thumbs down or ways to engage negatively within the game which is fascinating but also creates an experience based on positivity and kindness. So, I mainly bring it up as it is a fascinating way to tie up the entire design process towards the goal of creating only positive experiences between players. So, as we exist in a space that is trying to design a lot more critically and place values at the forefront of what we do, it is something that came to mind.</p> "},
+    " <p> To go off on a slight tangent, I liked how the video game Death Stranding (directed and written by Hideo Kojima from Kojima Productions) tackled interaction between players. The game is set in a post-apocalyptic world that mirrors what the Covid pandemic looked like because people are forced into having to exist in isolation from each other. The game is all about reconnecting the United Cities of America by building structures and one big network. Now the way it plays into the interaction between users: structures built within the game can be used by other players, so when you create a bridge, you not only get to create it for yourself but for any future players that travel the same route that you have. Players can then only interact positively with the structure that has been built by giving it a thumbs up. There are no thumbs down or ways to engage negatively within the game which is fascinating but also creates an experience based on positivity and kindness. So, I mainly bring it up as it is a fascinating way to tie up the entire design process towards the goal of creating only positive experiences between players. So, as we exist in a space that is trying to design a lot more critically and place values at the forefront of what we do, it is something that came to mind.</p> " +
+
+    "<p></p> "+
+ 
+    "<p></p> " 
+    },
 
     ];
 

@@ -6,27 +6,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="Design Section" />
     <link rel="stylesheet" href="stylesheet.css" />
+    <script src="./controller.js"></script>
     <title>Design Section</title>
   </head>
   <body>
     <header>
       <nav>
         <label for="logo" id="logo"> my portfolio website</label>
+        <!-- <h1>Portfolio Website</h1> -->
         <ul>
           <li>
-            <a href="./index.html"> Home</a>
+            <a href="#" id="homeLink" onclick="processLink('index.html')">
+              Home</a
+            >
           </li>
           <li>
-            <a href="./blog.html"> Blog </a>
+            <a href="#" id="blogLink " onclick="processLink('blog.html')">
+              Blog
+            </a>
           </li>
           <li>
-            <a href="#"> Design</a>
+            <a href="#" id="designLink" onclick="processLink('design.html')">
+              Design</a
+            >
           </li>
           <li>
-            <a href="./essay.html">Essay</a>
+            <a href="#" id="essayLink" onclick="processLink('essay.html')"
+              >Essay</a
+            >
           </li>
           <li>
-            <a href="./portfolio.html">Porfolio</a>
+            <a
+              href="#"
+              id="portfolioLink"
+              onclick="processLink('portfolio.html')"
+              >Porfolio</a
+            >
           </li>
         </ul>
       </nav>

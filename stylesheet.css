@@ -140,10 +140,11 @@ section {
 
 
 #essay{
-    height:100vh;
+    height:200vh;
     padding-top: 20px;
     background-color: crimson;
     color: white;
+    overflow: auto;
 }
 
 article {
