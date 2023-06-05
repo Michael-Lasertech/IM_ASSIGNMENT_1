@@ -135,6 +135,13 @@ const devEntries = [
         populateArticle(week);
     }
 
+    //URL navigation 
+    const homeLink = document.getElementById("homeLink");
+    const blogLink = document.getElementById("blogLink");
+    const designLink = document.getElementById("designLink");
+    const essayLink = document.getElementById("essayLink");
+    const portfolioLink = document.getElementById("portfolioLink");
+
     //function for populating the article
     function populateArticle(week){
         let article = document.getElementById("devblog");
