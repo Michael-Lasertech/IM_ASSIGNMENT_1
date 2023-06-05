@@ -114,7 +114,25 @@ section {
     padding-top: 10px;
     background-color: crimson;
     color: white;
+    display: grid;
+    grid-template : repeat(3, 10vh) / repeat(2,40vw);
 }
+
+.hbox {
+  background-color: aliceblue;
+  
+  
+}
+
+.hbox:hover{
+  background-color: gold;
+}
+
+.hb-title{
+  grid-column: 1/ span 2;
+}
+
+
 
 #essay{
     height:100vh;
