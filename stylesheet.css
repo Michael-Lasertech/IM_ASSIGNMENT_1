@@ -19,11 +19,16 @@
   /**
    * Remove the margin in all browsers.
    */
-  
+   /*background-color: rgba(246, 243, 243, 0.459);
+    background-color: rgb(246, 243, 243);*/
+
   body {
     margin : 0;
     margin-top: 80px;
+    /*background-color: rgba(246, 243, 243, 0.459);
+    background-color: rgb(246, 243, 243);*/
     background-color: rgba(246, 243, 243, 0.459);
+    
    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
    text-justify: newspaper;
     height: 100vh;
@@ -112,20 +117,20 @@ section {
 #about{
     height:60vh ;
     padding-top: 10px;
-    background-color: crimson;
-    color: white;
+    /* background-color: crimson;*/
+    color: black ;
     display: grid;
-    grid-template : repeat(3, 10vh) / repeat(2,40vw);
+    grid-template : repeat(3, 10vh) / repeat(2,50vw);
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+  
+
 }
 
 .hbox {
-  background-color: aliceblue;
-  
-  
-}
-
-.hbox:hover{
-  background-color: gold;
+  background-color: crimson;
 }
 
 .hb-title{
