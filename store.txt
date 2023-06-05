@@ -1,0 +1,16 @@
+  <ul>
+          <li>
+            <button id="homeLink" onclick="processLink()">Home</button>
+          </li>
+          <li>
+            <button id="blogLink" onclick="processLink()">Blog</button>
+          </li>
+          <li>
+            <button id="designLink" onclick="processLink()">Design</button>
+          </li>
+          <li>
+            <button id="essayLink" onclick="processLink()">Essay</button>
+          </li>
+          <li>
+            <button id="portfolioLink" onclick="processLink()">Portfolio</button>
+          </li>

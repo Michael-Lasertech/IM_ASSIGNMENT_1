@@ -137,7 +137,7 @@ const devEntries = [
 
     //URL navigation 
     const homeLink = document.getElementById("homeLink");
-    const blogLink = document.getElementById("blogLink");
+    const blogLink = document.getElementById('blogLink');
     const designLink = document.getElementById("designLink");
     const essayLink = document.getElementById("essayLink");
     const portfolioLink = document.getElementById("portfolioLink");
@@ -161,17 +161,28 @@ const devEntries = [
 
     backUpButton.addEventListener("click",scrollToTop);
     
-    function processLink(event){
-        event.preventDefault();
    
 
-        window.location.href = linkZ;
+    function processLink(getLink) {
         
-    }
+        if(window.location.href != getLink) {
+           
+            window.location.href = getLink;
+        }
+       
+   }
 
-    function retreiveLink(){
-        
+   /*
+
+    function retreiveLink(getLink){
+        if(getLink == homeLink){return "./index.html";}
+        else if(getLink == blogLink) {return "./blog.html";}
+        else if(getLink == designLink){return "./design.html";}
+        else if(getLink == essayLink){return "./essay.html";}
+        else if(getLink ==portfolioLink){return "./portfolio.html";}	
+        alert("returning");
     }
+    */
   
    homeLink.addEventListener("click",processLink);
    blogLink.addEventListener("click",processLink);
