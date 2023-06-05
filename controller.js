@@ -160,15 +160,25 @@ const devEntries = [
     }
 
     backUpButton.addEventListener("click",scrollToTop);
+    
+    function processLink(event){
+        event.preventDefault();
+   
+
+        window.location.href = linkZ;
+        
+    }
+
+    function retreiveLink(){
+        
+    }
   
-
-    function alertNoise(){
-        alert("You clicked ");
-    }
-
-    function scrollToTop(){
-       
-    }
+   homeLink.addEventListener("click",processLink);
+   blogLink.addEventListener("click",processLink);
+   designLink.addEventListener("click",processLink);
+   essayLink.addEventListener("click",processLink);
+   portfolioLink.addEventListener("click",processLink);
+   
   
 
   
