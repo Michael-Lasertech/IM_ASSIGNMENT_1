@@ -139,9 +139,15 @@ const devEntries = [
         article.innerHTML = devEntries[week - 1].text;
         alert("You clicked " + week);
     }
+   
+    function alertNoise(){
+        alert("You clicked ");
+    }
 
     //Event Listeners for clicks
-    wk1Button.addEventListener("click",populateSelection(1));
+    //wk1Button.addEventListener("click",populateSelection(1));
+    wk1Button.addEventListener("click",alertNoise);
+    document.onmousedown = alertNoise;
 
 
  
