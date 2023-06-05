@@ -89,6 +89,18 @@ nav ul li a {
     text-decoration:underline;    
  }
 
+ button{
+  border: none;
+ }
+
+ button:hover{
+   color: white;
+   background-color: crimson; ;
+ }
+
+ button:active{
+  background-color: crimson;
+ }
  /* Homepage style */
 
 section {
@@ -125,7 +137,6 @@ section {
     align-items: center;
     justify-content: center;
     align-content: center;
-  
 
 }
 
@@ -137,7 +148,24 @@ section {
   grid-column: 1/ span 2;
 }
 
+/*Blogging */
 
+
+.blogContainers{
+  justify-self: auto;
+  align-self: auto;
+  height: 60vh;
+  background-color: crimson;
+  color:white;
+  overflow: auto;
+}
+
+.firstVisit{
+ 
+  font-size: 2em;
+ 
+  
+}
 
 #essay{
     height:200vh;
@@ -164,7 +192,7 @@ footer{
 }
 
 .backUP{
-    margin-left: 45vw;
+    margin-left: 30vw;
     border: none;
     background-color: black;
 }
@@ -206,6 +234,27 @@ figcaption{
     width:50vw
    
 }
+
+.wkButtons{
+  height: 20vh;
+  display: grid;
+  grid-template: repeat(2,5vh)/repeat(9,10fr);
+  row-gap: 10px;
+  column-gap: 10px;
+  justify-content: center;
+  align-content: center;
+}
+
+#wk1{
+  grid-column:3;
+}  
+
+#wk8{
+  grid-column:2;
+}
+
+
+
 /*
  rgb(246, 243, 243)
 */

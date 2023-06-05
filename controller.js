@@ -85,7 +85,7 @@ const devEntries = [
     " <p> The reason so much bigotry, racism, and homophobia almost seems protected and normalized on the internet is the very disconnect it has with the majority of its users not acting as they would in the world. There is not enough effort to try to understand the various problems of people from different groups, and as such despite the internet being an unequal space, kindness and care are needed to try to treat this. Magenya points out that for this to happen, more African feminists need to “take up space on the internet to tell more stories and provide alternative views” to ultimately let the heteronormative status quo know that these people will not disappear, and neither will their voices.</p> " 
     +
 
-    "<p>[1] Magenya, S. 2020. Making a Feminist Internet in Africa: Why the internet needs African Feminists and Feminisms. Online. https://genderit.org/editorial/making-feminist-internet-africa-why-internet-needs-african-feminists-and-feminismsLinks to an external site.. 27 April 2023.</p> "
+    "<p>[1] Magenya, S. 2020. Making a Feminist Internet in Africa: Why the internet needs African Feminists and Feminisms. Online. https://genderit.org/editorial/making-feminist-internet-africa-why-internet-needs-african-feminists-and-feminismsLinks </p> "
     
 
 },
@@ -100,7 +100,7 @@ const devEntries = [
 
     " <p> The danger of this thus lies in the power imbalance that exists as most countries simply do not have the proper infrastructure to develop their own AI systems and will have to turn to China or America. The techno-colonial relationship presents itself through this dilemma as the AI Superpowers are in full control of the terms that they exercise, with clients needing to abide by the will of the superpowers otherwise they could face limitations. This leads to a society in which big corporations make use of their competitive control to exercise control to gain control over dependent states. Very Cyberpunk. </p> " +
 
-    "<p> [1]Giorgos Verdi, 2020, “The Road to Technocolonialism”, Institute for Internet & the Just Society, URL: https://www.internetjustsociety.org/the-road-to-techno-colonialism [last accessed: 03/05/2023]</p> "
+    "<p> [1]Giorgos Verdi, 2020, “The Road to Technocolonialism”, Institute for Internet & the Just Society, URL: https://www.internetjustsociety.org/the-road-to-techno-colonialism </p> "
     },
 
      {id: 11,
