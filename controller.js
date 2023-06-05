@@ -131,9 +131,9 @@ const devEntries = [
 
     " <p>The second reading I went through was by Williams and focused on the historical and sociotechnical elements of facial recognition and anti-black surveillance. The reading tackles the idea of whether some sociotechnical systems should be developed in the first place. The reading makes the argument that a lot of the systems such as facial recognition and predictive policing for example are inherently designed “on myriad a of human prejudicial biases and assumptions”. The reading brings up the example of facial recognition surveillance technologies being used within the United States policing system. A system that has a history of anti-black oppression and racism. A technology created within the confines of an unjust system is bound to be assigned and further exacerbate those unjust attitudes. The reading delves into the “history of measuring bodies of black bodies, turning those measurements into data and then building systems of values, beliefs, and predictions off of that data.” Those beliefs and predictions are harmful stereotypes that were being perpetuated within the media of the time. Those beliefs, coupled with outcomes of experiments and measurements became the base of algorithmic data and equations used to train many systems in place. Thus why the argument is made for whether or not such technologies can even be developed and explored in the first place before the current unjust societal norms are critiqued, analyzed, and challenged. " +
 
-    "<p></p> "+
+    "<p>[1] Glynos, D & Tataki, M. 2020.InternetJusticeSociety. Digital Divide Widens.</p> "+
  
-    "<p></p> " 
+    "<p>[2] Damien Patrick Williams (2020) Fitting the description: historical and sociotechnical elements of facial recognition and anti-black surveillance, Journal of Responsible Innovation </p>" 
     },
 
      {id: 14,
@@ -144,9 +144,7 @@ const devEntries = [
 
     " <p> To go off on a slight tangent, I liked how the video game Death Stranding (directed and written by Hideo Kojima from Kojima Productions) tackled interaction between players. The game is set in a post-apocalyptic world that mirrors what the Covid pandemic looked like because people are forced into having to exist in isolation from each other. The game is all about reconnecting the United Cities of America by building structures and one big network. Now the way it plays into the interaction between users: structures built within the game can be used by other players, so when you create a bridge, you not only get to create it for yourself but for any future players that travel the same route that you have. Players can then only interact positively with the structure that has been built by giving it a thumbs up. There are no thumbs down or ways to engage negatively within the game which is fascinating but also creates an experience based on positivity and kindness. So, I mainly bring it up as it is a fascinating way to tie up the entire design process towards the goal of creating only positive experiences between players. So, as we exist in a space that is trying to design a lot more critically and place values at the forefront of what we do, it is something that came to mind.</p> " +
 
-    "<p></p> "+
- 
-    "<p></p> " 
+    "<p>[1] Shani Orgad(2007) The internet as a moral space: the legacy of Roger Silverstone</p> "
     },
 
     ];
