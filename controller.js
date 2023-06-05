@@ -126,8 +126,10 @@ const devEntries = [
     ];
 
     //Create the buttons for the weekly dev blogs
-const wk3Button = document.getElementById("wk3");
-/*
+    const wk3Button = document.getElementById("wkThree");
+    const wk2Button = document.querySelector("#wk2");
+    const backUpButton = document.getElementsByClassName("backUp");
+
     function populateSelection (week){
 
         populateArticle(week);
@@ -137,17 +139,32 @@ const wk3Button = document.getElementById("wk3");
     function populateArticle(week){
         let article = document.getElementById("devblog");
         article.innerHTML = devEntries[week - 1].text;
-        alert("You clicked " + week);
-    }*/
+
+        let weekTitle = document.getElementById("weekname");
+        weekTitle.innerHTML = devEntries[week - 1].week;
+    }
+    
+    function scrollToTop(){
+          window.scrollTo({
+            top: 0,
+            behavior: 'smooth',
+            duration: 3000 
+          });
+    }
+
+    backUpButton.addEventListener("click",scrollToTop);
+  
+
     function alertNoise(){
         alert("You clicked ");
     }
-    
 
-    //Event Listeners for clicks
-    //wk1Button.addEventListener("click",populateSelection(1));
-     wk3Button.addEventListener("click",alertNoise,true);
-    //document.onmousedown = alertNoise;
+    function scrollToTop(){
+       
+    }
+  
+
+  
 
    
  

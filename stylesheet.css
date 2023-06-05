@@ -162,20 +162,20 @@ footer{
     padding: 70px 70px;
 }
 
-.BackUP{
+.backUP{
     margin-left: 45vw;
     border: none;
     background-color: black;
 }
 
-.BackUP a{
+.backUP a{
     text-transform: uppercase;
     text-decoration: none;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: white;
 }
 
-.BackUP a:hover{
+.backUP a:hover{
     color: crimson;
     text-decoration:underline;
 }
