@@ -57,33 +57,63 @@ const devEntries = [
     
     {id: 8,
     week: "Week 8", 
-    text:" "},
+    text:" <p>The readings made me consider the implications of epistemicide and the global hegemony of information that currently exists on the internet. The two readings relate in that they both explore the locality of digital information about a geographical area and they both explore the uneven geographical participation and representation of data. The first reading  by Graham, “Towards a study of information geographies ” explored the distribution of information under the lense of geography, while the second reading “Digital Hegemonies” mainly investigated the possible reason and explanation for the digital hegemony and strongest indicator of locality of information. This points to the possibility of socioeconomic systems that produce high quality research tending to being highly visible in an online context. As pointed out in this reading, the issue does not exist in the diverse range of sources of information but rather that those sources are dominated by the Global North. </p> " +
+
+    " <p>My thinking of web development as an individual related to my geographical area that exists in the global south is now mainly around the fact that consistent work and effort needs to be made to counter the status quo. The situation is not truly alleviating in the less developed countries, so the hope that entering the new “Information Era” would lead to a world in which digital information is more democratised is but a falsehood.  </p> " +
+
+    " <p> The most concerning part of this deals with how places that are invisible in their representation become equally invisible in practice to many people. That is a devastating predicament in which a group of people feel unheard, unseen and unnoticed by the world. Their narratives, and stories remain invisible because of their lack of the power that exists in information. </p> " 
+    
+    },
 
     
     {id: 9,
     week: "Week 9", 
-    text:" "},
+    text:" <p> </p> " +
+
+    " <p> </p> " +
+
+    " <p> </p> "},
 
     
     {id: 10,
     week: "Week 10", 
-    text:" "},
+    text:" <p> </p> " +
+
+    " <p> </p> " +
+
+    " <p> </p> "},
 
      {id: 11,
-    week: "Week 10", 
-    text:" "},
+    week: "Week 11", 
+    text:" <p> </p> " +
+
+    " <p> </p> " +
+
+    " <p> </p> "},
 
      {id: 12,
-    week: "Week 10", 
-    text:" "},
+    week: "Week 12", 
+    text:" <p> </p> " +
+
+    " <p> </p> " +
+
+    " <p> </p> "},
 
 
      {id: 13,
-    week: "Week 10", 
-    text:" "},
+    week: "Week 13", 
+    text:" <p> </p> " +
 
-     {id: 10,
-    week: "Week 10", 
-    text:" "},
+    " <p> </p> " +
+
+    " <p> </p> "},
+
+     {id: 14,
+    week: "Week 14", 
+    text:" <p> </p> " +
+
+    " <p> </p> " +
+
+    " <p> </p> "},
 
     ];
