@@ -65,10 +65,9 @@ const devEntries = [
     " <p>My thinking of web development as an individual related to my geographical area that exists in the global south is now mainly around the fact that consistent work and effort needs to be made to counter the status quo. The situation is not truly alleviating in the less developed countries, so the hope that entering the new “Information Era” would lead to a world in which digital information is more democratized is but a falsehood.   </p> " +
 
     " <p> The most concerning part of this deals with how places that are invisible in their representation become equally invisible in practice to many people. That is a devastating predicament in which a group of people feels unheard, unseen, and unnoticed by the world. Their narratives and stories remain invisible because of their lack of the power that exists in information. </p> " +
-
-    "<p></p> "+
- 
-    "<p></p> " 
+    "<p>[1]Graham, M., De Sabbata, S. and Zook, M.A., 2015. Towards a study of information geographies:(im) mutable augmentations and a mapping of the geographies of information. Geo: Geography and environment, 2(1), pp.88-105.</p> "
+     +
+    "<p>[2]Ballatore, A., Graham, M. and Sen, S., 2017. Digital hegemonies: the localness of search engine results. Annals of the American Association of Geographers, 107(5), pp.1194-1215 </p> "
     
     },
 
@@ -86,9 +85,7 @@ const devEntries = [
     " <p> The reason so much bigotry, racism, and homophobia almost seems protected and normalized on the internet is the very disconnect it has with the majority of its users not acting as they would in the world. There is not enough effort to try to understand the various problems of people from different groups, and as such despite the internet being an unequal space, kindness and care are needed to try to treat this. Magenya points out that for this to happen, more African feminists need to “take up space on the internet to tell more stories and provide alternative views” to ultimately let the heteronormative status quo know that these people will not disappear, and neither will their voices.</p> " 
     +
 
-    "<p></p> "+
- 
-    "<p></p> " 
+    "<p>[1] Magenya, S. 2020. Making a Feminist Internet in Africa: Why the internet needs African Feminists and Feminisms. Online. https://genderit.org/editorial/making-feminist-internet-africa-why-internet-needs-african-feminists-and-feminismsLinks to an external site.. 27 April 2023.</p> "
     
 
 },
@@ -103,20 +100,14 @@ const devEntries = [
 
     " <p> The danger of this thus lies in the power imbalance that exists as most countries simply do not have the proper infrastructure to develop their own AI systems and will have to turn to China or America. The techno-colonial relationship presents itself through this dilemma as the AI Superpowers are in full control of the terms that they exercise, with clients needing to abide by the will of the superpowers otherwise they could face limitations. This leads to a society in which big corporations make use of their competitive control to exercise control to gain control over dependent states. Very Cyberpunk. </p> " +
 
-    "<p></p> "+
- 
-    "<p></p> " 
+    "<p> [1]Giorgos Verdi, 2020, “The Road to Technocolonialism”, Institute for Internet & the Just Society, URL: https://www.internetjustsociety.org/the-road-to-techno-colonialism [last accessed: 03/05/2023]</p> "
     },
 
      {id: 11,
     week: "Week 11", 
     text:" <p> The lecture on “Why and how our code matters” introduced the idea of Critical code literacies and how we can avoid adding to the techno-colonialist culture that exists. The reason it exists and has been fostered in the first place is that code is not truly as neutral as we are led to believe. The choices of the literacy or code signs used within programming are driven by the requirements of the project and the purpose of the program, but also by the social understanding of the programmers behind it. </p> " +
 
-    " <p> With that in mind, by being critical when it comes to our code and aware of the possible implications within our code, we can begin the journey to effect lasting change in our sector. So, to look at my code as an example and to try to identify anything to be aware of, I just mainly need to be thinking about why I make the decisions I do and if they might have any possible effects that play into larger systems. Since it is a very new concept to me, it is a bit difficult to think of proper examples from the very small applications that my code is being used for but using lessons learned so far from within the course, I can start my thinking at accessibility. How accessible is the code I am writing? Within a South African context where most of the populous accesses the internet from mobile devices, I can ask myself if I am barring the information I make on my current or future websites/projects from an entire group of people. That is an important question to think of, consider and enact within my code. </p> "  +
-
-    "<p></p> "+
- 
-    "<p></p> " 
+    " <p> With that in mind, by being critical when it comes to our code and aware of the possible implications within our code, we can begin the journey to effect lasting change in our sector. So, to look at my code as an example and to try to identify anything to be aware of, I just mainly need to be thinking about why I make the decisions I do and if they might have any possible effects that play into larger systems. Since it is a very new concept to me, it is a bit difficult to think of proper examples from the very small applications that my code is being used for but using lessons learned so far from within the course, I can start my thinking at accessibility. How accessible is the code I am writing? Within a South African context where most of the populous accesses the internet from mobile devices, I can ask myself if I am barring the information I make on my current or future websites/projects from an entire group of people. That is an important question to think of, consider and enact within my code. </p> " 
     },
 
      {id: 12,
@@ -130,9 +121,7 @@ const devEntries = [
 
     " <p>The design justice network outlines some principles that exist as a starting point for designers to try counter this and allow for our design to empower the many communities around us. Its biggest aims are based on challenging the norms by making design a collaborative experience because every human being is an expert on their own lived experience. Therefore, by including them greatly in the design process, it then becomes possible to build upon what already works, and further uplift their communities with our design solutions. </p> " +
 
-    "<p></p> "+
- 
-    "<p></p> " 
+    "<p>[1] Costanza-Chock, S., 2020. Introduction: # TravelingWhileTrans, Design Justice, and Escape from the Matrix of Domination. Design Justice, 1.</p> "
     },
 
 
