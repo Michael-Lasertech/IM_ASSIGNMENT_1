@@ -126,8 +126,8 @@ const devEntries = [
     ];
 
     //Create the buttons for the weekly dev blogs
-    const wk1Button = document.getElementById("wk1");
-
+    const wk1Button = document.getElementById("myButton");
+/*
     function populateSelection (week){
 
         populateArticle(week);
@@ -138,16 +138,16 @@ const devEntries = [
         let article = document.getElementById("devblog");
         article.innerHTML = devEntries[week - 1].text;
         alert("You clicked " + week);
-    }
-   
+    }*/
     function alertNoise(){
         alert("You clicked ");
     }
+    
 
     //Event Listeners for clicks
     //wk1Button.addEventListener("click",populateSelection(1));
-    wk1Button.addEventListener("click",alertNoise);
-    document.onmousedown = alertNoise;
+     wk1Button.addEventListener("click",alertNoise);
+    //document.onmousedown = alertNoise;
 
-
+   
  
