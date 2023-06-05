@@ -126,7 +126,7 @@ const devEntries = [
     ];
 
     //Create the buttons for the weekly dev blogs
-    const wk1Button = document.getElementById("myButton");
+const wk1Button = document.getElementById("wk1");
 /*
     function populateSelection (week){
 
