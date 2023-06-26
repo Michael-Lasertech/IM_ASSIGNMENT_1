@@ -700,15 +700,12 @@ padding: 30px 30px;
 #about{
   height:60vh ;
   padding-top: 10px;
-  background-color: crimson;
   color: white;
 }
 
 #essay{
   height:100vh;
   padding-top: 20px;
-  background-color: crimson;
-  color: white;
 }
 
 article {
@@ -723,7 +720,6 @@ article {
 
 footer{
   background-color: black;
-  /* background-color: black; */
   padding: 70px 70px;
 }
 
