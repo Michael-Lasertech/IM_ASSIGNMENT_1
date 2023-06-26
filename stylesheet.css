@@ -181,7 +181,7 @@ font-size: 2em;
 }
 
 #essay{
-  height:200vh;
+  height:240vh;
   padding-top: 20px;
   
   overflow: auto;
@@ -248,10 +248,10 @@ figcaption{
  
 }
 .essayButtons{
-  display: grid;
-  grid-template: repeat(1,10vh)/repeat(4,20fr);
+  display: flex;
   justify-content: center;
-  align-content: center;
+  flex-basis: 15rem;
+  justify-content: space-evenly;
 }
 
 .wkButtons{
