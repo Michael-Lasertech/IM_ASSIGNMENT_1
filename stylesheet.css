@@ -181,7 +181,7 @@ font-size: 2em;
 }
 
 #essay{
-  height:240vh;
+  height:260vh;
   padding-top: 20px;
   
   overflow: auto;
@@ -915,15 +915,13 @@ h1 {
  #essay{
      height:100vh;
      padding-top: 20px;
-     background-color: crimson;
-     color: white;
  }
  
  article {
       
       text-align: justify;
       border-top: 3px solid black;
-      border-right-style:inset;
+      
       margin:0 auto; 
       padding-right: 10px;
       width: 95%;
@@ -981,11 +979,7 @@ h1 {
  /*
   rgb(246, 243, 243)
  */
- 
- 
- 
- 
-   
+
  
  
    /**
