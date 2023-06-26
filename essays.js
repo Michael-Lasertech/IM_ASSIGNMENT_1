@@ -3,7 +3,8 @@ const essayEntries = [
     {
     id: 1,
     title: "Gumtree Critique", 
-    text: " <p>1 Introduction The website I decided to analyse was the Gumtree website (Gumtree.co.za). The main reason for this being that they provide a useful service to people within the country of South Africa in which they get to purchase or sell any items they wish to. The web developers at Gumtree have the responsibility to deliver a site that is usable for all people seeking the service on whatever platform they may be using. Due to the service that they facilitate, which involves the use of sensitive information like contact information, they also have a strong imperative to try make sure that users of the website that sell items are not frauds or people with malicious intent. The Gumtree website operates itself with the user’s best interest in mind. Their UI and UX design is acceptable overall, although there are certainly places that could be improved upon and tweaked when it comes to the presentation of items and the interface.</p>" +
+    text:"<h2 id=\"essayTitle\">Gumtree Critique</h2>" + 
+     " <p>1 Introduction The website I decided to analyse was the Gumtree website (Gumtree.co.za). The main reason for this being that they provide a useful service to people within the country of South Africa in which they get to purchase or sell any items they wish to. The web developers at Gumtree have the responsibility to deliver a site that is usable for all people seeking the service on whatever platform they may be using. Due to the service that they facilitate, which involves the use of sensitive information like contact information, they also have a strong imperative to try make sure that users of the website that sell items are not frauds or people with malicious intent. The Gumtree website operates itself with the user’s best interest in mind. Their UI and UX design is acceptable overall, although there are certainly places that could be improved upon and tweaked when it comes to the presentation of items and the interface.</p>" +
 
   "<p> Introduction The website I decided to analyse was the Gumtree website (Gumtree.co.za). The main reason for this being that they provide a useful service to people within the country of South Africa in which they get to purchase or sell any items they wish to. The web developers at Gumtree have the responsibility to deliver a site that is usable for all people seeking the service on whatever platform they may be using. Due to the service that they facilitate, which involves the use of sensitive information like contact information, they also have a strong imperative to try make sure that users of the website that sell items are not frauds or people with malicious intent. The Gumtree website operates itself with the user’s best interest in mind. Their UI and UX design is acceptable overall, although there are certainly places that could be improved upon and tweaked when it comes to the presentation of items and the interface. </p> "  +
 
@@ -44,10 +45,10 @@ const essayEntries = [
   "<p> [5] 8 Free Web-Based Website Accessibility Evaluation Tools: Justin Mifsud (NA) Available at :https://usabilitygeek.com/10-free-web-based-web-site-accessibility-evaluation-tools (Accessed: May 1, 2023)</p>" 
    
    ,},
-    
       {id: 2,
-      title: "Statement on AI Mitigation", 
-      text: " <p> The Centre for AI Safety (CAIS) released a statement on AI in which they claim that the risk AI presents should be placed on as high of a priority as pandemics and nuclear wars. The statement is backed by high-ranking individuals as signatories and is calling for the regulation of the development of AI, as well as more funding and research to be placed in the sector of AI. The issue with this however is if CAIS has genuine intentions of dealing with AI risk or if it is more focused on solidifying the status of the current leaders in AI innovation as the signatories stand to benefit greatly from overseeing AI regulation. CAIS brings up valuable points of concern, but they also stand in a position to widen the current digital divide and centralize the control of AI.</p>" +
+      title:"Statement on AI Mitigation", 
+      text: "<h2 id=\"essayTitle\">Statement on AI Mitigation</h2>" + 
+      "<p> The Centre for AI Safety (CAIS) released a statement on AI in which they claim that the risk AI presents should be placed on as high of a priority as pandemics and nuclear wars. The statement is backed by high-ranking individuals as signatories and is calling for the regulation of the development of AI, as well as more funding and research to be placed in the sector of AI. The issue with this however is if CAIS has genuine intentions of dealing with AI risk or if it is more focused on solidifying the status of the current leaders in AI innovation as the signatories stand to benefit greatly from overseeing AI regulation. CAIS brings up valuable points of concern, but they also stand in a position to widen the current digital divide and centralize the control of AI.</p>" +
      
       "<p> CAIS is a San Francisco-based research and field-building nonprofit. [1] They claim that their mission is to mitigate the societal-scale risk involved with the progress and development of AI by building the field of AI through research and advocacy. CAIS states that it is far too “difficult to voice concerns about some of advanced AI’s most severe risks” so they instead utilize a short statement that they claim was made to start a discussion. The manifesto is so short it is concerning, and just below it, the statement is shown to be backed by signatories that are all either experts in the field of AI research, or notable figures in general. The delivery of it calls into question if there are any ulterior motives at play with the proposition. </p>" +
 
@@ -101,9 +102,9 @@ const essayEntries = [
 
 
     function PopulateEssay(option){
-    let essayEntry = document.getElementById("essayEntry");
-    essayEntry.innerHTML = essayEntries[option - 1].text;
-
-    let essayTitle = document.getElementById("weekname");
-    essayTitle.innerHTML = devEntries[option - 1].title;
+    
+        let essayEntry = document.getElementById("essayEntry");
+        essayEntry.innerHTML = essayEntries[option].text;
 }
+
+
