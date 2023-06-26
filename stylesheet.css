@@ -836,6 +836,11 @@ h1 {
      font-weight: bold;
      
    }
+
+   .imgTemplate{
+
+    height : 50vh;
+   }
  
    nav { 
  
