@@ -119,6 +119,8 @@ section {
   height:50vh;
   font-size: 2em;
   text-align: center;
+  background-color: crimson;
+  color:white;
 
 }
 
@@ -132,8 +134,8 @@ padding: 30px 30px;
 #about{
   
   padding-top: 10px;
-  background-color: crimson;
-  color: white;
+  color: black;
+  text-align: center;
 }
 
 #aboutPages{
