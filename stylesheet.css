@@ -247,6 +247,12 @@ figcaption{
   width:50vw
  
 }
+.essayButtons{
+  display: grid;
+  grid-template: repeat(1,10vh)/repeat(4,20fr);
+  justify-content: center;
+  align-content: center;
+}
 
 .wkButtons{
 height: 20vh;
@@ -283,6 +289,11 @@ main {
 h1 {
   font-size: 2em;
   margin: 0.67em 0;
+  
+}
+
+.centered{
+  text-align: center;
 }
 
 /* Grouping content
