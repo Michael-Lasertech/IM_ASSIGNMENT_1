@@ -12,7 +12,10 @@
     function processLink(getLink) {
         
         if(window.location.href != getLink) {
+            duration = 1000;
             window.location.href = getLink;
+        } else if(window.location.href == getLink){
+            ScrollToTop();
         }
    }
   
@@ -23,10 +26,10 @@
       .then(text => document.getElementById('navigationBar').innerHTML = text)
     
       ;
-}
+   }
 
   document.addEventListener('DOMContentLoaded',PopulateNavigation);
-  
+ 
 
   
 
