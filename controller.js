@@ -16,7 +16,16 @@
         }
    }
   
+   function PopulateNavigation(){
+     
+      fetch('./store.html')
+      .then(response => {return response.text();})
+      .then(text => document.getElementById('navigationBar').innerHTML = text)
+    
+      ;
+}
 
+  document.addEventListener('DOMContentLoaded',PopulateNavigation);
   
 
   
