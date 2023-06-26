@@ -100,10 +100,10 @@ const essayEntries = [
     ];
 
 
-function PopulateEssay(option){
-    let essayEntry = document.getElementById("essay");
-    essayEntry.innerHTML = essayEntries[option - 1].title;
+    function PopulateEssay(option){
+    let essayEntry = document.getElementById("essayEntry");
+    essayEntry.innerHTML = essayEntries[option - 1].text;
 
-    let weekTitle = document.getElementById("weekname");
-    weekTitle.innerHTML = devEntries[option - 1].title;
+    let essayTitle = document.getElementById("weekname");
+    essayTitle.innerHTML = devEntries[option - 1].title;
 }
