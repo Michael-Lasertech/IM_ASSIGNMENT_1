@@ -169,8 +169,7 @@ grid-row: 2;
 justify-self: auto;
 align-self: auto;
 height: 60vh;
-background-color: crimson;
-color:white;
+
 overflow: auto;
 }
 
@@ -184,8 +183,7 @@ font-size: 2em;
 #essay{
   height:200vh;
   padding-top: 20px;
-  background-color: crimson;
-  color: white;
+  
   overflow: auto;
 }
 
@@ -201,8 +199,8 @@ article {
 
 footer{
   background-color: black;
-  /* background-color: black; */
   padding: 70px 70px;
+ 
 }
 
 .backUP{
@@ -902,15 +900,6 @@ h1 {
   justify-content: center;
   align-content: center;
 }
-
- 
- 
- #about{
-    
-  
-     background-color: crimson;
-     color: white;
- }
  
  #essay{
      height:100vh;
